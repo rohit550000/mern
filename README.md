@@ -26,5 +26,5 @@
       <h5>VITE_APP_BASE_URL = http://localhost:8801/api</h5>
     </li>
     <li>remeber 8801 was the backend server port in this example</li>
-    <li><b>run</b>npm run dev</li>
+    <li><b>run</b> npm run dev</li>
 </ul>
