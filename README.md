@@ -28,3 +28,8 @@
     <li>remeber 8801 was the backend server port in this example</li>
     <li><b>run :</b> npm run dev</li>
 </ul>
+
+
+![image](https://github.com/rohit550000/mern/assets/123115001/151ecafe-dd15-4d55-8b7d-8947caecc8ee)
+
+
