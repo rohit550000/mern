@@ -4,7 +4,7 @@
     <h3>Steps for backend</h3>
     <li><b>cd to backend folder <b></li>
     <li><b>run</b> : npm i</li>
-    <li><b>run</b> : <b>New-Item -ItemType file .env<b> or <b>touch .env<b> to create a .env file </li>
+    <li><b>run</b> : <b>New-Item -ItemType file .env<b>               or          <b>touch .env<b>        to create a .env file </li>
     <li><b>Open env file and put this all veriable</b> : 
       <h5> DATABASE_URL="Your mongo db connection string" </h5>
       <h5> CLIENT_URL= your react localhost path </h5>
