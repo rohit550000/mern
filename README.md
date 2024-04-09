@@ -15,7 +15,7 @@
       <h5> CLIENT_URL= http://localhost:5173 </h5>
       <h5>PORT = 8801</h1>
     </li>
-    <li><b>run</b> : <h4>npm run dev</h4></li>
+    <li><b>run</b> : npm run dev </li>
     <li><b>Keep this server running and open a new terminal with the backend directory only</b></li>
     <li><b>below command is for generating fack data and to update backend model and schema</b></li>
     <li><b>run: </b> npx prisma db push</li>
