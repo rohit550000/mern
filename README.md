@@ -1,4 +1,4 @@
-<h1>How to run this  project { Please follow every step to run the project successfully} </h1>
+<h1>How to run this  project --  Please follow every step to run the project successfully -- </h1>
 <ul>
     <li>Clone repo or Download zip file and cd into it</li>
     <h3>Steps for backend</h3>
