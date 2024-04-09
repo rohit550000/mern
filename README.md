@@ -5,9 +5,9 @@
     <li><b>run</b> : npm i</li>
     <li><b>run</b> : <b>New-Item -ItemType file .env<b> or <b>touch .env<b> to create a .env file </li>
     <li><b>Open env file </b> : 
-      DATABASE_URL="Your mongo db connection string"
-      CLIENT_URL= your react localhost path
-      PORT = your port
+      <h1> DATABASE_URL="Your mongo db connection string" </h1>
+      <h1> CLIENT_URL= your react localhost path </h1>
+       <h1>PORT = your port </h1>
     </li>
     <li><b>run</b> : php artisan config:clear</li>
     <li><b>run</b> : php artisan serve</li>
