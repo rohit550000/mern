@@ -40,7 +40,7 @@
 ![image](https://github.com/rohit550000/mern/assets/123115001/9741a2b4-71f9-48d5-9eb2-3080964d8ae4)
 ![image](https://github.com/rohit550000/mern/assets/123115001/75b4125b-18b6-422d-9300-b6dcedc5e1fa)
 ![image](https://github.com/rohit550000/mern/assets/123115001/d3a3d532-af0a-497e-bdee-ac3df50e8f64)
-![image](https://github.com/rohit550000/mern/assets/123115001/9aab2176-d5cf-4936-a36b-6b7b674afa94)
+![image](https://github.com/rohit550000/mern/assets/123115001/77cac351-affa-4e98-ad8e-b1f8fa6a4dfc)
 ![image](https://github.com/rohit550000/mern/assets/123115001/82c7c5a0-8b78-40c0-8205-388d33ffddf6)
 ![image](https://github.com/rohit550000/mern/assets/123115001/1ab2ffdf-8f57-4cb4-815a-e36de2ada059)
 ![image](https://github.com/rohit550000/mern/assets/123115001/79232800-208c-4bec-beb5-5745da73b095)
