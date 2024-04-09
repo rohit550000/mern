@@ -7,7 +7,12 @@
     <li><b>Open env file </b> : 
       <h5> DATABASE_URL="Your mongo db connection string" </h5>
       <h5> CLIENT_URL= your react localhost path </h5>
-       <h5>PORT = your port </h1>
+      <h5>PORT = your port </h1>
+    </li>
+    <li><b>Eaxmple or you can use this, just past in env</b> : 
+      <h5> DATABASE_URL="mongodb+srv://root:root@real-state-mern-project.c4485ph.mongodb.net/realstate?retryWrites=true&w=majority&appName=real-state-mern-project" </h5>
+      <h5> CLIENT_URL= http://localhost:5173 </h5>
+      <h5>PORT = 8801</h1>
     </li>
     <li><b>run</b> : php artisan config:clear</li>
     <li><b>run</b> : php artisan serve</li>
