@@ -1,0 +1,14 @@
+.clientContainer{
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  .client{
+    border: .1px solid black;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding:1rem;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,90 @@
+@import "../../responsive.scss";
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height:100px;
+
+  a {
+    transition: all 0.4s ease;
+
+    &:hover {
+      scale: 1.05;
+    }
+  }
+
+  .left {
+    flex:1;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+    .logo {
+      font-weight: bold;
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      img {
+        width: 90px;
+      }
+
+      span {
+        @include md {
+          display: none;
+        }
+
+        @include sm {
+          display: initial;
+        }
+      }
+    }
+  }
+  .right {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+    @include md {
+      background-color: transparent;
+    }
+
+    a {
+      padding: 12px 24px;
+      margin: 20px;
+    }
+
+    .user{
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+
+      span{
+        margin-left:3rem;
+      }
+
+      .logout{
+        padding: 12px 24px;
+        background-color:#6C63FF;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        color: white;
+        button{
+          background-color: transparent;
+          color: white;
+          padding:.3rem;
+          border: none;
+          outline: none;
+        }
+      }
+    }
+    .register {
+      background-color:#6C63FF;
+      color: white;
+    }
+  }
+}
