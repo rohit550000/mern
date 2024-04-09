@@ -18,7 +18,7 @@
     <li><b>run</b> : npm run dev</li>
     <li><b>Keep this server running and open a new terminal with the backend directory only</b></li>
     <li><b>run: </b> npx prisma db push</li>
-    <li><b>run</b> node seed.js</li>
+    <li><b>run : </b> node seed.js</li>
     <h3>Steps for Frontend</h3>
     <li><b>cd to frontend folder <b></li>
     <li><b>run</b> : <b>New-Item -ItemType file .env<b> or <b>touch .env<b> to create a .env file </li>
@@ -26,5 +26,5 @@
       <h5>VITE_APP_BASE_URL = http://localhost:8801/api</h5>
     </li>
     <li>remeber 8801 was the backend server port in this example</li>
-    <li><b>run</b> npm run dev</li>
+    <li><b>run :</b> npm run dev</li>
 </ul>
