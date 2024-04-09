@@ -15,6 +15,7 @@
       <h5> CLIENT_URL= http://localhost:5173 </h5>
       <h5>PORT = 8801</h1>
     </li>
+    ![image](https://github.com/rohit550000/mern/assets/123115001/54ea8785-f56b-49c7-9149-9f1e22a3cb67)
     <li><b>run</b> : npm run dev </li>
     <li><b>Keep this server running and open a new terminal with the backend directory only</b></li>
     <li><b>below command is for generating fack data and to update backend model and schema</b></li>
