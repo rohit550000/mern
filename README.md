@@ -16,7 +16,7 @@
       <h5>PORT = 8801</h1>
     </li>
     <li><b>run</b> : npm run dev</li>
-    <li><b>Keep this server running and open new terminal with backend directory</b></li>
+    <li><b>Keep this server running and open new terminal with backend directory only</b></li>
     <li><b>run: </b> npx prisma db push</li>
     <li><b>run</b> node seed.js</li>
     <h3>Steps for Frontend</h3>
