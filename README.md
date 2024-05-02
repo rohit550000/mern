@@ -32,19 +32,18 @@
 </ul>
 
 
+![image](https://github.com/rohit550000/mern/assets/123115001/9afb0cb6-62ea-4c47-b995-c9ef41981355)
+![image](https://github.com/rohit550000/mern/assets/123115001/48c697e5-044c-464d-b10f-b3e3e03948e0)
+![image](https://github.com/rohit550000/mern/assets/123115001/107b2f2c-e49c-4de8-b591-89344eb39320)
+![image](https://github.com/rohit550000/mern/assets/123115001/18616570-6a2a-491b-a79c-57f86dd82cdf)
+![image](https://github.com/rohit550000/mern/assets/123115001/afe24185-5395-46c8-9f33-42bcfc03e49d)
+![image](https://github.com/rohit550000/mern/assets/123115001/be6203fe-d788-430f-a68a-afc1497d7d07)
+![image](https://github.com/rohit550000/mern/assets/123115001/69a2e226-8076-4fb6-9ef1-ff566b18b5c5)
 
 
-![image](https://github.com/rohit550000/mern/assets/123115001/151ecafe-dd15-4d55-8b7d-8947caecc8ee)
-![image](https://github.com/rohit550000/mern/assets/123115001/6dca7022-3bc1-4014-abc5-03ef40968c1f)
-![image](https://github.com/rohit550000/mern/assets/123115001/258191f2-30a0-4bc0-b6ff-7ebb91d58553)
-![image](https://github.com/rohit550000/mern/assets/123115001/4984447f-6fc8-4f97-aa93-7e4928431077)
-![image](https://github.com/rohit550000/mern/assets/123115001/9741a2b4-71f9-48d5-9eb2-3080964d8ae4)
-![image](https://github.com/rohit550000/mern/assets/123115001/75b4125b-18b6-422d-9300-b6dcedc5e1fa)
-![image](https://github.com/rohit550000/mern/assets/123115001/d3a3d532-af0a-497e-bdee-ac3df50e8f64)
-![image](https://github.com/rohit550000/mern/assets/123115001/77cac351-affa-4e98-ad8e-b1f8fa6a4dfc)
-![image](https://github.com/rohit550000/mern/assets/123115001/82c7c5a0-8b78-40c0-8205-388d33ffddf6)
-![image](https://github.com/rohit550000/mern/assets/123115001/1ab2ffdf-8f57-4cb4-815a-e36de2ada059)
-![image](https://github.com/rohit550000/mern/assets/123115001/79232800-208c-4bec-beb5-5745da73b095)
+
+
+
 
 
 
