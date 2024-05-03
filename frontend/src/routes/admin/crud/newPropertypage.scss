@@ -26,6 +26,7 @@
 .newPostPage {
   height: 100%;
   display: flex;
+  padding:1rem 4rem 0;
 
   @include sm {
     height: 230%;

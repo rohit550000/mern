@@ -3,6 +3,7 @@
 .singlePage {
   display: flex;
   height: 100%;
+  padding: 3rem;
 
   @include md {
     flex-direction: column;

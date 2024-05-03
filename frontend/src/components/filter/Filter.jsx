@@ -39,7 +39,7 @@ function Filter() {
       }
 
       <h1>
-        Search results for <b>{searchParams.get("city")}</b>
+        Search results of city <b>{searchParams.get("city")}</b>
       </h1>
       <div className="top">
         <div className="item">

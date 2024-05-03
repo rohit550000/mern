@@ -23,7 +23,7 @@ function SinglePage() {
   }
 
   useEffect(() => {
-    !currentUser ? setIntrest('show intrest') : setIntrest('Intrested')
+    !currentUser ? setIntrest('show interest') : setIntrest('Interested')
   }, [currentUser])
 
   return (

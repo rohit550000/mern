@@ -4,10 +4,7 @@ import "./homePage.scss";
 function HomePage() {
   return (
     <div className="homePage">
-      <div className="imgContainer">
-        <img src="/homebg.png" alt="" />
-      </div>
-
+  
       <div className="textContainer">
         <div className="wrapper">
           <h1 className="title">Discover Your Ideal Home with Real Estate Experts</h1>
@@ -15,6 +12,8 @@ function HomePage() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
             explicabo suscipit cum eius, iure est nulla animi consequatur
             facilis id pariatur fugit quos laudantium temporibus dolor ea
+            repellat provident impedit! fugit quos laudantium temporibus dolor ea
+            repellat provident impedit!fugit quos laudantium temporibus dolor ea
             repellat provident impedit!
           </p>
 
