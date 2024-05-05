@@ -36,7 +36,7 @@ const CreateNewProperty = () => {
         property: inputs.property,
       });
       enqueueSnackbar('New Property Created Successfully ', { variant: 'success' });
-      navigate("/list")
+      navigate("/admindashboard")
     } catch (err) {
       enqueueSnackbar('Oops! something went wrong', { variant: 'error' });
       setError(error);

@@ -1,14 +1,37 @@
-.clientContainer{
-  border: 1px solid black;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  .client{
-    border: .1px solid black;
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
-    padding:1rem;
-    cursor: pointer;
+@import "../../responsive.scss";
+
+.clientContainer {
+  padding: 1rem 40rem 0 4rem;
+  @include md {
+    padding: 1rem 3rem 0 4rem;
+  }
+  @include sm {
+    padding: 1rem 1rem 0 4rem;
+  }
+
+  .clients {
+    display: grid;
+    grid-template-columns: 1fr;
+    list-style: none;
+    padding-top: 1rem;
+
+    li {
+      background-color: black;
+      padding: 1rem;
+      display: flex;
+      gap: 0.5rem;
+      flex-direction: column;
+      margin-bottom: 0.2rem;
+      border-bottom: 0.4rem solid #6c63ff;
+      // border-right:.4rem solid #6C63FF;
+
+      .username,
+      .email {
+        display: flex;
+        gap: 0.3rem;
+        font-size: 1.2rem;
+        color: white;
+      }
+    }
   }
 }

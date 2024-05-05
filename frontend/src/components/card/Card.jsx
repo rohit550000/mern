@@ -2,15 +2,16 @@ import { Link } from "react-router-dom";
 import "./card.scss";
 import { useSelector } from "react-redux";
 
-function Card({ item }) {
+function Card({ item, currentpath }) {
   const currentUser = useSelector((state) => state.currentuser.data);
+
   return (
     <div className="card">
       <Link to={`/${item.id}`} className="imageContainer">
         <img src={item.images[0]} alt="" />
       </Link>
       <div className="textContainer">
-        {currentUser && currentUser.role == "Admin" ? (
+        {currentUser && currentUser.role == "Admin" && currentpath == 'admindashboard' ? (
           <div className="icons">
             <Link to={`/${item.id}`}>
               <button className="iconOne">view</button>
@@ -36,7 +37,7 @@ function Card({ item }) {
           </span>
         </p>
         <p className="price"> ₹ {item.price} Lac</p>
-        <div className="bottom">
+        <div className="bottom" style={{ display: currentUser && currentUser.role == "Admin" && currentpath == 'admindashboard' ? 'none' : '' }}>
           <div className="features">
             <div className="feature">
               <img src="/bed.png" alt="" />

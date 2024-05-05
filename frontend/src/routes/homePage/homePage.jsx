@@ -1,10 +1,12 @@
+import { useEffect } from "react";
 import SearchBar from "../../components/searchBar/SearchBar";
 import "./homePage.scss";
+import { useLocation } from "react-router-dom";
 
 function HomePage() {
   return (
     <div className="homePage">
-  
+
       <div className="textContainer">
         <div className="wrapper">
           <h1 className="title">Discover Your Ideal Home with Real Estate Experts</h1>

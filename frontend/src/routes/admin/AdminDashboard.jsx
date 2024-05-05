@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import "./AdminDashboard.scss";
 import apiFetchRequest from '../../utils/apiFetchRequest';
+import { MdAttachEmail } from "react-icons/md";
+import { FaUserTie } from "react-icons/fa";
 
 const AdminDashboard = () => {
   const [data, setData] = useState([])
@@ -24,10 +26,18 @@ const AdminDashboard = () => {
       <h1>Our valuable Client</h1>
       {
         data.map((ele, index) => (
-          <div className="client" key={index}>
-            <h3>Username - {ele.username}</h3>
-            <h3>Email - {ele.email}</h3>
-          </div>
+          <ul className="clients" key={index}>
+            <li>
+              <div className="username">
+               <FaUserTie />
+                <span>{ele.username}</span>
+              </div>
+              <div className="email">
+              <MdAttachEmail />
+              <span>{ele.email}</span>
+              </div>
+            </li>
+          </ul>
         ))
       }
     </div>

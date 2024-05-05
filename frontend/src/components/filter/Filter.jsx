@@ -3,7 +3,7 @@ import "./filter.scss";
 import { Link, useSearchParams } from "react-router-dom";
 import { useSelector } from 'react-redux'
 
-function Filter() {
+function Filter({ currentpath }) {
   const [searchParams, setSearchParams] = useSearchParams();
   const currentUser = useSelector((state) => state.currentuser.data)
   const [query, setQuery] = useState({
@@ -28,7 +28,7 @@ function Filter() {
   return (
     <div className="filter">
       {
-        currentUser?.role == "Admin" ? (
+        currentUser?.role == "Admin" && currentpath == 'admindashboard' ? (
           <Link to={"/admin/create"}>
             <button className="createProperty">
               Create a New Property
@@ -39,9 +39,9 @@ function Filter() {
       }
 
       <h1>
-        Search results of city <b>{searchParams.get("city")}</b>
+        <b>Filters</b>
       </h1>
-      <div className="top">
+      <div className="bottom">
         <div className="item">
           <label htmlFor="city">Location</label>
           <input
@@ -53,8 +53,6 @@ function Filter() {
             defaultValue={query.city}
           />
         </div>
-      </div>
-      <div className="bottom">
         <div className="item">
           <label htmlFor="property">Property</label>
           <select

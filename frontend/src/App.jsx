@@ -60,6 +60,11 @@ function App() {
       children: [
         {
           path:"/admindashboard",
+          element:<ListPage/>,
+          loader:listOfPropertyLoader
+        },
+        {
+          path:"/clients",
           element:<AdminDashboard/>,
         },
         {

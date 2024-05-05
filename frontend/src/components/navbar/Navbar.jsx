@@ -28,7 +28,7 @@ function Navbar() {
       console.log(err);
     }
   };
-  console.log(currentUser)
+
 
   return (
     <nav>
@@ -39,13 +39,8 @@ function Navbar() {
         <a href="/">Home</a>
         {
           currentUser?.role == "Admin" ? (
-            <a href="/list">PropertyList</a>
+            <a href="/admindashboard">Dashboard</a>
           ) : (<a href="/">About</a>)
-        }
-        {
-          currentUser?.role == "Admin" ? (
-            <a href="/admindashboard">View Client</a>
-          ) : ('')
         }
 
       </div>
@@ -66,6 +61,7 @@ function Navbar() {
           </>
         )}
       </div>
+
     </nav>
   );
 }

@@ -33,7 +33,7 @@ const UpdateProperty = () => {
         property: inputs.property,
       });
       enqueueSnackbar('Property Updated successfully', { variant: 'success' });
-      navigate("/list")
+      navigate("/admindashboard")
     } catch (err) {
       enqueueSnackbar('Oops!! something went wrong', { variant: 'error' });
       setError(error);
@@ -43,7 +43,7 @@ const UpdateProperty = () => {
   return (
     <div className="newPostPage">
       <div className="formContainer">
-        <h1>Update New Property</h1>
+        <h1>Update Property</h1>
         <div className="wrapper">
           <form onSubmit={handleSubmit}>
             <div className="item">

@@ -17,7 +17,7 @@ const DeleteProperty = () => {
       const res = await apiFetchRequest.delete(`/property/${id}`)
       setLoading(false);
       enqueueSnackbar('Property Deleted successfully', { variant: 'success' });
-      navigate("/list");
+      navigate("/admindashboard");
     } catch (err) {
       setLoading(false);
       enqueueSnackbar('Oops! something went wrong ', { variant: 'error' });
@@ -33,7 +33,7 @@ const DeleteProperty = () => {
         <button onClick={handleDeleteProperty} className='deleteit'>
           Yes, Delete it
         </button>
-        <Link to={"/list"}>
+        <Link to={"/admindashboard"}>
           <button className='deleteno'>
             No
           </button>
